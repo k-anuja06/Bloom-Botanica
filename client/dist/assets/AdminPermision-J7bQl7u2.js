@@ -1,0 +1,1 @@
+import{b as t,j as e}from"./index-DOuJ7_mk.js";import{i}from"./isAdmin-nI4fABFg.js";const a=({children:r})=>{const s=t(o=>o.user);return e.jsx(e.Fragment,{children:i(s.role)?r:e.jsx("p",{className:"text-red-600 bg-red-100 p-4",children:"Do not have permission"})})};export{a as default};

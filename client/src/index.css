@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optimized: Only loading weight 400 and 600 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+  overflow-y: auto;
+  @apply bg-green-50 text-neutral-700 scroll-smooth;
+}
+
+/* Scrollbar styling remains same */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbarCustom::-webkit-scrollbar {
+  width: 10px;
+  @apply bg-slate-100;
+}
+.scrollbarCustom::-webkit-scrollbar-thumb {
+  @apply bg-blue-100 rounded-full;
+}
+
+/* Autofill override */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #000 !important;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: 0 0 0px 1000px #ecfdf5 inset !important;
+  background-color: #ecfdf5 !important;
+}

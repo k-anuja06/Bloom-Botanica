@@ -1,0 +1,156 @@
+
+├── client/
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── banner-mobile.jpg
+│   │   │   ├── Best_Prices_Offers.png
+│   │   │   ├── BloomBotanicaLogo.png
+│   │   │   ├── empty_cart.webp
+│   │   │   ├── minute_delivery.png
+│   │   │   ├── new_banner.png
+│   │   │   ├── nothing here yet.webp
+│   │   │   ├── OnlineStoreLogo.png
+│   │   │   └── tabLogo.png
+│   │   ├── common/
+│   │   │   └── SummaryApi.js
+│   │   ├── components/
+│   │   │   ├── AddAddress.jsx
+│   │   │   ├── AddFieldComponent.jsx
+│   │   │   ├── AddToCartButton.jsx
+│   │   │   ├── CardLoading.jsx
+│   │   │   ├── CardProduct.jsx
+│   │   │   ├── CartMobile.jsx
+│   │   │   ├── CategoryWiseProductDisplay.jsx
+│   │   │   ├── CofirmBox.jsx
+│   │   │   ├── DisplayCartItem.jsx
+│   │   │   ├── DisplayTable.jsx
+│   │   │   ├── Divider.jsx
+│   │   │   ├── EditAddressDetails.jsx
+│   │   │   ├── EditCategory.jsx
+│   │   │   ├── EditProductAdmin.jsx
+│   │   │   ├── EditSubCategory.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── Loading.jsx
+│   │   │   ├── NoData.jsx
+│   │   │   ├── ProductCardAdmin.jsx
+│   │   │   ├── Search.jsx
+│   │   │   ├── UploadCategoryModel.jsx
+│   │   │   ├── UploadSubCategoryModel.jsx
+│   │   │   ├── UserMenu.jsx
+│   │   │   ├── UserProfileAvatarEdit.jsx
+│   │   │   └── ViewImage.jsx
+│   │   ├── hooks/
+│   │   │   └── useMobile.jsx
+│   │   ├── layouts/
+│   │   │   ├── AdminPermision.jsx
+│   │   │   └── Dashboard.jsx
+│   │   ├── pages/
+│   │   │   ├── Address.jsx
+│   │   │   ├── Cancel.jsx
+│   │   │   ├── CartMobile.jsx
+│   │   │   ├── CategoryPage.jsx
+│   │   │   ├── CheckoutPage.jsx
+│   │   │   ├── ForgotPassword.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── MyOrders.jsx
+│   │   │   ├── OtpVerification.jsx
+│   │   │   ├── Product.jsx
+│   │   │   ├── ProductAdmin.jsx
+│   │   │   ├── ProductDisplayPage.jsx
+│   │   │   ├── ProductListPage.jsx
+│   │   │   ├── Profile.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── ResetPassword.jsx
+│   │   │   ├── SearchPage.jsx
+│   │   │   ├── SubCategoryPage.jsx
+│   │   │   ├── Success.jsx
+│   │   │   ├── UploadProduct.jsx
+│   │   │   └── UserMenuMobile.jsx
+│   │   ├── provider/
+│   │   │   └── GlobalProvider.jsx
+│   │   ├── route/
+│   │   │   └── index.jsx
+│   │   ├── store/
+│   │   │   ├── addressSlice.js
+│   │   │   ├── cartProduct.js
+│   │   │   ├── orderSlice.js
+│   │   │   ├── productSlice.js
+│   │   │   ├── store.js
+│   │   │   └── userSlice.js
+│   │   ├── utils/
+│   │   │   ├── addToCartProduct.js
+│   │   │   ├── Axios.js
+│   │   │   ├── AxiosToastError.js
+│   │   │   ├── DisplayPriceInRupees.js
+│   │   │   ├── fetchUserDetails.js
+│   │   │   ├── isAdmin.js
+│   │   │   ├── PriceWithDiscount.js
+│   │   │   ├── SuccessAlert.js
+│   │   │   ├── UploadImage.js
+│   │   │   └── valideURLConvert.js
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── .env
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── README.md
+│   ├── tailwind.config.js
+│   └── vite.config.js
+├── server/
+│   ├── config/
+│   │   ├── connectDB.js
+│   │   ├── sendEmail.js
+│   │   └── stripe.js
+│   ├── controllers/
+│   │   ├── address.controller.js
+│   │   ├── cart.controller.js
+│   │   ├── category.controller.js
+│   │   ├── order.controller.js
+│   │   ├── product.controller.js
+│   │   ├── subCategory.controller.js
+│   │   ├── uploadImage.controller.js
+│   │   └── user.controller.js
+│   ├── middleware/
+│   │   ├── Admin.js
+│   │   ├── auth.js
+│   │   └── multer.js
+│   ├── models/
+│   │   ├── address.model.js
+│   │   ├── cartproduct.model.js
+│   │   ├── category.model.js
+│   │   ├── order.model.js
+│   │   ├── product.model.js
+│   │   ├── subCategory.model.js
+│   │   └── user.model.js
+├── route/
+│   │   ├── address.route.js
+│   │   ├── cart.route.js
+│   │   ├── category.route.js
+│   │   ├── order.route.js
+│   │   ├── product.route.js
+│   │   ├── subCategory.route.js
+│   │   ├── upload.router.js
+│   │   └── user.route.js
+│   ├── utils/
+│   │   ├── forgotPasswordTemplate.js
+│   │   ├── generatedAccessToken.js
+│   │   ├── generatedOtp.js
+│   │   ├── generatedRefreshToken.js
+│   │   ├── uploadImageClodinary.js
+│   │   └── verifyEmailTemplate.js
+│   ├── .env
+│   ├── index.js
+│   ├── package-lock.json
+│   ├── package.json
+│   └── vercel.json
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md

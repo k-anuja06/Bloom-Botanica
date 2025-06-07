@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="border-t py-4 bg-gray-100">
       <div className="container mx-auto text-center flex flex-col lg:flex-row lg:justify-between items-center gap-4">
         <p>© All Rights Reserved 2025.</p>
-        <p>Developed with 💚 by <span className="font-bold">Anuj Jha</span></p>
+        <p>Developed with 💚 by <span className="font-bold">Anuja Kumari</span></p>
 
         <div className="flex gap-6 text-2xl">
           <a
